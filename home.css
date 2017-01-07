@@ -1,0 +1,103 @@
+body {
+  font-family: "Ubuntu Mono", sans-serif;
+  font-size: 20px;
+}
+
+.calc {
+  width: 350px;
+  margin-top: 50px;
+  padding: 30px;
+  border: 1px solid black;
+}
+
+.title {
+  width: 100%;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+h1, h2 {
+  margin: 0;
+  text-align: center;
+}
+
+h2 {
+  padding: 5px 0;
+  font-size: 20px;
+  border-bottom: 1px solid black;
+}
+
+.content {
+  width: 100%;
+}
+
+.subtotal {
+  width: 100%;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.subtotal .content {
+  min-height: 30px;
+}
+
+.subtotal .input {
+  width: calc(100% - 24px);
+  padding: 1px 5px;
+}
+
+.input {
+  text-align: right;
+  font-size: 20px;
+  border: none;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.tip {
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.tip .content {
+  font-size: 18px;
+  height: 30px;
+  padding: 2px 28px;
+}
+
+.tip .input {
+  font-size: 18px;
+  width: 20px;
+}
+
+.split {
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.split .input {
+  width: calc(100% - 64px);
+  padding: 1px 5px;
+  display: inline-block;
+}
+
+.error {
+  font-size: 12px;
+  color: red;
+  text-align: center;
+  padding: 5px;
+  border-top: 1px solid black;
+}
+
+.calculate {
+  width: 100%;
+}
+
+.result {
+  margin-top: 10px;
+  border: 1px solid black;
+  padding: 5px;
+  font-size: 15px;
+}
